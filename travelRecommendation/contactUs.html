@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('JSProject.png');
+            background-size: cover;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .search-bar {
+            float: left;
+            width: 150px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-left: 20px;
+            margin-top: 12px
+        }
+        .search-button {
+            float: right;
+            width: 120px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 12px;
+            margin-right: 20px;
+        }
+        .search-button:hover {
+            float: right;
+            width: 120px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 12px
+        }
+        .p-container {
+            display: flex;
+            font-family: Arial;
+            color: black;
+            text-align: center;
+            float: center;
+            height: 100%;
+            width: 50%;
+        }
+        .p-text-head {
+            font-family: Arial;
+            font-size: 44px;
+            color: black;
+            text-align: center;
+            float: left;
+            margin-left: 50px;
+        }
+        .p-text-main {
+            font-family: Arial;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+            float: right;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 400px;
+        }
+        .title-text {
+            font-family: Arial;
+            font-size: 26px;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-right: 30%;
+        }
+        .con-text {
+            font-family: Arial;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-right: 5%;
+        }
+        .book-button {
+            float: left;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 20px;
+            margin-left: 45%;
+            background-color: green;
+            font-family: Arial;
+            font-size: 22px;
+        }
+        .table-style {
+            border: 3px Solid;
+            border-radius: 10px;
+            background-color: white;
+            height: 500px;
+            width: 25%;
+            float: center;
+            text-align: center;
+            margin-top: 20px;
+            margin-right: 300px;
+        }
+        .submit-button {
+            float: right;
+            width: 120px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 12px;
+            margin-right: 20px;
+        }
+
+    </style>
+</head>
+
+<header>
+
+    <div class="navbar">
+        <a class="title-text" href="travel_recommendations.html">MakeMeTravel</a>
+        <a href="travel_recommendations.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a class="con-text" href="contactus.html">Contact</a>
+    </div>
+
+</header>
+
+<body>
+    <p class="p-text-head">
+        Contact Us
+    </p>
+        <div>
+            <form class="table-style">
+                <input class="search-bar" type="text" placeholder="Name"></input>
+                <input class="search-bar" type="email" placeholder="Email"></input>
+                <textarea style="margin-top; 30px; height: 150px; width: 90%;" type="text">Reason for Contact</textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+</body>
+
+<script type="text/javascript" src="travel_recommendations.js"></script>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('JSProject.png');
+            background-size: cover;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .search-bar {
+            float: center;
+            width: 150px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-left: 275px;
+            margin-top: 12px
+        }
+        .search-button {
+            float: right;
+            width: 120px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 12px;
+            margin-right: 20px;
+        }
+        .search-button:hover {
+            float: right;
+            width: 120px;
+            height: 20px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 12px
+        }
+        .p-container {
+            display: flex;
+            font-family: Arial;
+            color: black;
+            text-align: center;
+            float: center;
+            height: 100%;
+            width: 50%;
+        }
+        .p-text-head {
+            font-family: Arial;
+            font-size: 44px;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-bottom: 65px;
+            margin-top: 10px;
+        }
+        .p-text-head-2 {
+            font-family: Arial;
+            font-size: 44px;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-bottom: 10px;
+            margin-top: 200px;
+        }
+        .p-text-main {
+            font-family: Arial;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+            float: center;
+            margin-right: 20px;
+        }
+        .title-text {
+            font-family: Arial;
+            font-size: 26px;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-right: 30%;
+        }
+        .con-text {
+            font-family: Arial;
+            color: black;
+            text-align: left;
+            float: left;
+            margin-right: 5%;
+        }
+        .book-button {
+            float: left;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 20px;
+            margin-left: 45%;
+            background-color: green;
+            font-family: Arial;
+            font-size: 22px;
+        }
+        .table-style {
+            border: 3px Solid;
+            border-radius: 10px;
+            background-color: white;
+            height: 200px;
+            width: 75%;
+            float: left;
+            text-align: center;
+            margin-top: 20px;
+            margin-right: 300px;
+        }
+        .backdrop-style {
+            border: 3px Solid;
+            border-radius: 10px;
+            background-color: white;
+            height: 100px;
+            width: 40%;
+            float: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+    </style>
+</head>
+
+<header>
+
+    <div class="navbar">
+        <a class="title-text" href="travel_recommendations.html">MakeMeTravel</a>
+        <a href="travel_recommendations.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a class="con-text" href="contactus.html">Contact</a>
+    </div>
+
+</header>
+
+<body>
+        <p class="p-text-head">
+            About Us
+        </p>
+        <div class="backdrop-style">
+            <p class="p-text-main">
+                We are a national travel agency dedicated to helping our customers find the best vacation and special occasion spots in the market.
+            </p>
+        </div>
+        <div>
+        <p class="p-text-head-2">
+            The Team
+        </p>
+        <p class="p-text-main">
+            <div>
+                <table class="table-style">
+                    <tr>
+                    <th>John Doe</th>
+                    <th>Jane Doe</th>
+                    <th>Jimmy John Doe</th>
+                    </tr>
+                    <tr>
+                    <td>Director of Sales and Marketing</td>
+                    <td>President of BI Solutions</td>
+                    <td>CEO</td>
+                    </tr>
+                    <tr>
+                    <td>10 Years with MakeMeTravel</td>
+                    <td>13 Years with MakeMeTravel</td>
+                    <td>25 Years with MakeMeTravel</td>
+                    </tr>
+                </table>
+            </div>
+        </p>
+    </div>
+</body>
+
+<script type="text/javascript" src="travel_recommendations.js"></script>
+
+</html>
